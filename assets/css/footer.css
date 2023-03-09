@@ -1,0 +1,34 @@
+.footer-container {
+    display: flex;
+    margin: 0 40px;
+    padding: 40px 0;
+}
+
+.footer-container .logo-container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    column-gap: 20px;
+}
+
+.footer-container .menu-container {
+    width: 50%;
+    margin: auto;
+    justify-content: right;
+    display: flex;
+}
+
+.footer-container .menu-container li {
+    font-size: 30px;
+}
+
+.footer-container .menu-container ul {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    column-gap: 30px;
+    list-style: none;
+}
+
+.footer-container svg {
+    max-height: 50px;
+}
